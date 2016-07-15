@@ -22,4 +22,4 @@ export class DashboardComponent implements OnInit {
     this.router.navigate(link);
   }
 }
-
+//TODO me quedé en Select a Hero in the HeroesComponent

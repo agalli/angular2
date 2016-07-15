@@ -34,4 +34,5 @@ var DashboardComponent = (function () {
     return DashboardComponent;
 }());
 exports.DashboardComponent = DashboardComponent;
+//TODO me quedé en Select a Hero in the HeroesComponent
 //# sourceMappingURL=dashboard.component.js.map
