@@ -6,10 +6,12 @@ import { HeroService } from './hero.service';
 
 @Component({
   selector: 'my-dashboard',
-  templateUrl: 'app/dashboard.component.html'
+  templateUrl: 'app/dashboard.component.html',
+  styleUrls: ['app/dashboard.component.css']
 })
 export class DashboardComponent implements OnInit {
   heroes: Hero[] = [];
+  
   constructor(private router: Router, 
     private heroService: HeroService) { }
 
@@ -22,4 +24,3 @@ export class DashboardComponent implements OnInit {
     this.router.navigate(link);
   }
 }
-//TODO me quedé en Select a Hero in the HeroesComponent

@@ -29,12 +29,12 @@ var DashboardComponent = (function () {
     DashboardComponent = __decorate([
         core_1.Component({
             selector: 'my-dashboard',
-            templateUrl: 'app/dashboard.component.html'
+            templateUrl: 'app/dashboard.component.html',
+            styleUrls: ['app/dashboard.component.css']
         }), 
         __metadata('design:paramtypes', [router_1.Router, hero_service_1.HeroService])
     ], DashboardComponent);
     return DashboardComponent;
 }());
 exports.DashboardComponent = DashboardComponent;
-//TODO me quedé en Select a Hero in the HeroesComponent
 //# sourceMappingURL=dashboard.component.js.map
