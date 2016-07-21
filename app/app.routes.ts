@@ -21,10 +21,6 @@ const routes: RouterConfig = [
 {
   path: 'detail/:id',
   component: HeroDetailComponent
-},
-{
-  path: 'detail/:id',
-  component: HeroDetailComponent
 }
 ];
 
